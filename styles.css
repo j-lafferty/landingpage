@@ -187,3 +187,12 @@ body,
 #action-button {
   border: 2px solid#f9faf8;
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-weight: 200;
+}
