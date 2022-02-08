@@ -1,5 +1,6 @@
 body {
   display: flex;
+  /*background-color: #394858;*/
 }
 body,
 .page {
@@ -30,7 +31,7 @@ body,
   align-items: center;
   width: max-content;
   margin-top: 10px;
-  padding: 4px 30px;
+  padding: 5px 30px;
   border: 4px solid #3882f6;
   border-radius: 10px;
   background-color: #3882f6;
@@ -150,4 +151,39 @@ body,
   text-align: right;
   font-weight: 600;
   font-size: 24px;
+}
+.main-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+.action-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 650px;
+}
+.action-title {
+  width: 750px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+}
+.action-subtext {
+  width: 750px;
+  text-align: left;
+  font-weight: 200;
+  color: #e5e7eb;
+}
+#action-button {
+  border: 2px solid#f9faf8;
 }
